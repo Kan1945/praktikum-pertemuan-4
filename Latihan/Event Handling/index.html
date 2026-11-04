@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form Validasi</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #306191;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #output4 {
+      background: #fff;
+      width: 100%;
+      max-width: 460px;
+      padding: 24px;
+      border-radius: 8px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      text-align: center;
+      color: #333;
+    }
+
+    #output4 label {
+      display: inline-block;
+      width: 60px;
+      margin-bottom: 12px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    #output4 input {
+      width: calc(100% - 70px);
+      padding: 8px 10px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    #output4 input:focus {
+      outline: none;
+      border-color: #4a90e2;
+      box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+    }
+
+    #output4 button {
+      width: 100%;
+      padding: 10px;
+      background: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    #output4 button:hover { background: #357abd; }
+    #output4 button:active { transform: scale(0.98); }
+
+    #error-message {
+      margin-top: 12px;
+      font-size: 14px;
+      min-height: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="output4">
+    <h2>Form Pendaftaran</h2>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
